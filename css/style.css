@@ -9,7 +9,7 @@
     background: url(../img/Group\ 7.png ),  no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    min-height: 102vh;
 }
 
 .image-section h1 {
@@ -28,7 +28,7 @@
 .form-section {
     width: 60%;
     height: 100vh;
-    padding: 40px;
+    padding: 30px;
 }
 
 .inner-form-box {

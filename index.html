@@ -19,33 +19,36 @@
       <div class="form-section">
         <div class="inner-form-box">
           <div class="logo-section">
-            <img src="./img/WhatsApp_Image_2021-08-10_at_12.52 1.png" alt="kodecamp logo" />
+            <img
+              src="./img/WhatsApp_Image_2021-08-10_at_12.52 1.png"
+              alt="kodecamp logo"
+            />
           </div>
           <h1 class="logo-text">Sign up</h1>
-          <form action="https://formspree.io/f/xayvpdzr" method="POST" >
+          <form action="https://formspree.io/f/xayvpdzr" method="POST">
             <div class="form-row">
               <div class="input-box">
                 <label for="firstName">First Name</label>
                 <br />
-                <input type="text" id="firstName" />
+                <input type="text" id="firstName" name="firstName" required />
               </div>
               <div class="input-box">
                 <label for="lastName">Last Name</label>
                 <br />
-                <input type="text" id="lastName" />
+                <input type="text" id="lastName" name="lastName" required />
               </div>
             </div>
             <div class="form-row">
               <div class="input-box">
                 <label for="email">Email</label>
                 <br />
-                <input type="email" id="email" />
+                <input type="email" id="email" name="email" required />
               </div>
               <div class="input-box">
                 <label for="lastName">Gender</label>
                 <br />
-                <select name="" id="">
-                  <option value="">Select your gender</option>
+                <select name="Gender" id="">
+                  <option value="" disabled selected>Select your gender</option>
                   <option value="">Male</option>
                   <option value="">Female</option>
                   <option value="">Others</option>
@@ -56,20 +59,22 @@
               <div class="input-box">
                 <label for="Password">Password</label>
                 <br />
-                <input type="password" id="Pssword" />
+                <input type="password" id="Pssword" name="password-1" />
               </div>
               <div class="input-box">
                 <label for="confirmPassword">Confirm Password</label>
                 <br />
-                <input type="password" id="confirmPassword" />
+                <input type="password" id="confirmPassword" name="password-2" />
               </div>
             </div>
             <div class="form-row">
               <div class="input-box">
                 <label for="educationLevel">Education Level</label>
                 <br />
-                <select name="" id="">
-                  <option value="">select Education level</option>
+                <select ` name="Education Level" id="">
+                  <option value="" disabled selected>
+                    select Education level
+                  </option>
                   <option value="">Master</option>
                   <option value="">Bachelor degree</option>
                   <option value="">SSCE</option>
@@ -77,21 +82,22 @@
                 </select>
               </div>
               <div class="input-box">
-                <label for="lastName">Experience Level</label>
+                <label for="experienceLevel">Experience Level</label>
                 <br />
-                <select name="" id="">
-                  <option value="">Select your level</option>
+                <select name="Experience Level" id="">
+                  <option value="" disabled selected>Select your level</option>
                   <option value="">Beginner</option>
                   <option value="">Intermediate</option>
                 </select>
               </div>
             </div>
             <div class="comment">
-              <label for="comment">Tell us about you</label> <br>
-              <textarea name="" id="" cols="30" rows="10"></textarea>
+              <label for="comment">Tell us about you</label>
+              <br />
+              <textarea name="About me" id="" cols="30" rows="10"></textarea>
             </div>
             <div class="btn">
-              <input type="submit" value="Create an account" > 
+              <input type="submit" value="Create an account" />
             </div>
           </form>
         </div>

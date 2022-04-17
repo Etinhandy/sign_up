@@ -9,13 +9,6 @@
   </head>
   <body>
     <section class="page-holder">
-      <div class="image-section">
-        <h1>KodeCamp</h1>
-        <div class="image-text">
-          <h3>join our next cohort</h3>
-          <p>an internship that changes newbies to probies</p>
-        </div>
-      </div>
       <div class="form-section">
         <div class="inner-form-box">
           <div class="logo-section">
@@ -47,12 +40,20 @@
               <div class="input-box">
                 <label for="lastName">Gender</label>
                 <br />
-                <select name="Gender" id="">
-                  <option value="" disabled selected>Select your gender</option>
-                  <option value="">Male</option>
-                  <option value="">Female</option>
-                  <option value="">Others</option>
-                </select>
+                <div class="rdio">
+                  <div class="radio-1">
+                    <input type="radio" name="gender" id="male" />
+                    <label for="male">Male</label>
+                  </div>
+                  <div class="radio-2">
+                    <input type="radio" name="gender" id="male" />
+                    <label for="female">Female</label>
+                  </div>
+                  <div class="radio-3">
+                    <input type="radio" name="gender" id="other" />
+                    <label for="other">other</label>
+                  </div>
+                </div>
               </div>
             </div>
             <div class="form-row">
@@ -100,6 +101,13 @@
               <input type="submit" value="Create an account" />
             </div>
           </form>
+        </div>
+      </div>
+      <div class="image-section">
+        <h1>KodeCamp</h1>
+        <div class="image-text">
+          <h3>join our next cohort</h3>
+          <p>an internship that changes newbies to probies</p>
         </div>
       </div>
     </section>
